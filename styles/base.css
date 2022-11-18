@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--green-900);
+  font-family: 'Inter', sans-serif;
+  color: var(--gray-200);
+}
+
+label {
+  font-size:  clamp(1.4rem, 1.6rem, 2vw);
+  font-weight: 600;
+}
+
+input {
+  outline: none;
+}
+
+input, button {
+  font-family: 'Inter', sans-serif;
+  border-style: none;
+}
+
+input[type="email"], input[type="password"] {
+  font-size: clamp(1.2rem, 1.4rem, 2vw);
+  background: var(--gray-200);
+  color: var(--gray-300);
+  width: 100%;
+}
+
+button, input[type="checkbox"] {
+  cursor: pointer;
+}
+
+a {
+  color: var(--gray-300);
+  font-size: clamp(1.2rem, 1.4rem, 2vw);
+  transition: color .3s ease-out;
+}
+
+a:hover {
+  color: var(--gray-200);
+}

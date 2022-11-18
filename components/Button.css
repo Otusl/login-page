@@ -1,0 +1,14 @@
+.main-btn {
+  display: block;
+  color: var(--green-900);
+  background: var(--tusk-200);
+  border-radius: .4rem;
+  padding: .8rem 1.2rem;
+  width: 100%;
+  font-weight: 700;
+  transition: background .3s ease-out;
+}
+
+.main-btn:hover {
+  background: var(--tusk-100);
+}
